@@ -281,24 +281,6 @@ cd build && node index.js
               This is Satoshi's original address! 
 ```
 
-### **🔥 Advanced Operations**
-
-```bash
-# Cross-chain arbitrage detection  
-"Find price differences for USDC between Ethereum and Avalanche"
-
-# Portfolio management
-"Show me all my token balances across all networks"
-
-# DeFi yield farming
-"Get the best swap rate for 1000 USDC to AVAX across all DEXs"
-
-# Market analysis
-"Compare gas fees across all EVM networks right now"
-```
-
----
-
 ## 🏆 **Hackathon Impact**
 
 ### **📊 Metrics & Achievements**
@@ -325,7 +307,7 @@ cd build && node index.js
 
 ---
 
-## 👨‍💻 **Meet the Builder**
+## 👨‍💻 **Meet the Builders**
 
 <div align="center">
 
@@ -384,33 +366,6 @@ const skills = {
 
 ---
 
-## 🗺️ **Roadmap & Future Vision**
-
-### **🎯 Phase 1: Foundation** *(Completed)*
-- ✅ Multi-chain MCP server architecture
-- ✅ 12+ blockchain network integration
-- ✅ 50+ tools and operations
-- ✅ Comprehensive documentation
-
-### **🚀 Phase 2: Enhancement** *(Next 3 months)*
-- 🔄 **Advanced DeFi Integration** - Yield farming, liquidity pools
-- 🤖 **AI-Powered Analytics** - Smart transaction optimization
-- 🌐 **More Networks** - Cosmos, Near, Aptos integration
-- 📱 **Mobile SDK** - React Native MCP client
-
-### **🌟 Phase 3: Ecosystem** *(Next 6 months)*  
-- 🏢 **Enterprise Features** - Multi-sig, role-based access
-- 🔗 **Plugin Architecture** - Community-driven extensions
-- 📊 **Analytics Dashboard** - Real-time portfolio tracking
-- 🎯 **MEV Protection** - Front-running prevention
-
-### **💫 Phase 4: Scale** *(Next 12 months)*
-- 🌍 **Global Infrastructure** - Multi-region deployment
-- 🎨 **No-Code Builder** - Visual workflow creation
-- 🤝 **Partnership Integrations** - CEX/DEX collaborations
-- 🏆 **DAO Governance** - Community-driven development
-
----
 
 ## 📞 **Get Involved**
 
@@ -464,6 +419,6 @@ and/or sell copies of the Software.
 [![Star on GitHub](https://img.shields.io/badge/⭐%20Star%20on%20GitHub-Show%20Support-FFD700?style=for-the-badge&logo=github)](https://github.com/Alphamoris/Muliti_Chain_MCP)
 [![Follow on Twitter](https://img.shields.io/badge/🐦%20Follow%20Updates-Twitter-1DA1F2?style=for-the-badge&logo=twitter)](https://x.com/@_Alpha_45)
 
-*Made in India 🇮🇳 | Chennai | 2025*
+*Made in India 🇮🇳 | Bangalore | 2025*
 
 </div>
