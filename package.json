@@ -1,0 +1,91 @@
+{
+  "name": "web3-mcp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "web3-mcp": "./build/index.js"
+  },
+  "scripts": {
+    "clean": "rm -rf build",
+    "build": "npm run clean && tsc && chmod +x build/index.js",
+    "start": "node build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "keywords": [
+    "solana",
+    "mcp",
+    "rpc",
+    "blockchain",
+    "xrp",
+    "ripple",
+    "cardano",
+    "ton"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Blockchain RPC Model-Context-Protocol Server for Solana, EVM chains, UTXO chains, Ripple (XRP), Cardano, TON and more",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akc2267/web3-mcp.git"
+  },
+  "homepage": "https://github.com/akc2267/web3-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/akc2267/web3-mcp/issues"
+  },
+  "contributors": [
+    {
+      "name": "Alex Cheng",
+      "email": "alexanderkcheng@gmail.com",
+      "url": "https://github.com/akc2267"
+    }
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "private": false,
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "@cosmos-client/core": "^0.46.1",
+    "@jup-ag/api": "^6.0.12",
+    "@modelcontextprotocol/sdk": "^1.4.1",
+    "@psf/bitcoincashjs-lib": "^4.0.3",
+    "@solana/spl-token": "^0.4.1",
+    "@solana/web3.js": "^1.98.4",
+    "@ton/core": "0.52.2",
+    "@ton/crypto": "3.2.0",
+    "@ton/ton": "13.5.1",
+    "@xchainjs/xchain-bitcoin": "^1.2.2",
+    "@xchainjs/xchain-bitcoincash": "^1.0.10",
+    "@xchainjs/xchain-client": "^1.0.10",
+    "@xchainjs/xchain-crypto": "^0.3.7",
+    "@xchainjs/xchain-doge": "^1.0.10",
+    "@xchainjs/xchain-litecoin": "^1.0.10",
+    "@xchainjs/xchain-midgard-query": "^1.0.11",
+    "@xchainjs/xchain-thorchain": "^2.0.13",
+    "@xchainjs/xchain-thorchain-amm": "^2.0.23",
+    "@xchainjs/xchain-thorchain-query": "^1.0.13",
+    "@xchainjs/xchain-util": "^1.0.8",
+    "bchaddrjs": "^0.5.2",
+    "bip39": "^3.1.0",
+    "bitcoinjs-lib": "^6.1.5",
+    "bs58": "^5.0.0",
+    "cross-fetch": "^4.0.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.11.1",
+    "fetch-retry": "^5.0.6",
+    "lucid-cardano": "^0.10.11",
+    "ripple-keypairs": "^1.3.1",
+    "wif": "^4.0.0",
+    "xrpl": "^2.14.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "typescript": "^5.7.3"
+  }
+}
